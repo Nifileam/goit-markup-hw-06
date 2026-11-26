@@ -1,0 +1,106 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #fff;
+}
+
+.body-medium {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.body-small {
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: None;
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+
+.container {
+  padding: 0px 16px;
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.section {
+  padding: 96px 0;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+.section-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0px 15px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section {
+    padding: 120px 0;
+  }
+  .container {
+    max-width: 1158px;
+  }
+}
