@@ -10,7 +10,7 @@
 
 .logo {
   color: #2e2f42;
-  margin-right: 149px;
+  margin-right: auto;
   padding-bottom: 16px;
   padding-top: 16px;
 }
@@ -20,13 +20,18 @@
   display: none;
 }
 
-.burger-menu-icon {
+.burger-button {
   display: block;
+  border: none;
+  background: none;
+}
+
+.burger-menu-icon {
   color: #2e2f42;
 }
 
 @media screen and (min-width: 768px) {
-  .burger-menu-icon {
+  .burger-button {
     display: none;
   }
   .logo {
@@ -76,9 +81,9 @@
   .address-a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     color: #434455;
     display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -118,7 +123,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1158px) {
   .logo {
     margin-right: 76px;
   }

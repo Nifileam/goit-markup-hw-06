@@ -6,7 +6,7 @@
 .hero-section {
   padding: 72px 0px;
   background-image:
-    linear-gradient(rgba(46, 47, 66, 0.7)),
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     image-set(url(../images/hero-bg.jpg) 1x, url(../images/hero-bg@2x.jpg) 2x);
   min-width: 320px;
   margin: 0 auto;
@@ -68,7 +68,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1158px) {
   .hero-section {
     padding: 188px 0px;
     max-width: 1440px;

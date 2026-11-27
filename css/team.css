@@ -55,10 +55,10 @@
 .team-ul {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  flex-direction: column;
+  gap: 72px;
   padding: 0px;
   margin: 0px;
-  flex-wrap: wrap;
 }
 
 .team-ul-social {
@@ -95,12 +95,18 @@
 }
 
 @media screen and (min-width: 768px) {
+  .team-ul {
+    flex-direction: row;
+    gap: 64px 24px;
+    flex-wrap: wrap;
+  }
+
   .team-card {
     width: calc((100% - 24px) / 2);
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1158px) {
   .team-ul {
     flex-wrap: nowrap;
     gap: 24px;
