@@ -17,6 +17,8 @@
 
 .footer-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-social-p {
@@ -157,11 +159,10 @@
   .footer-section {
     padding: 96px 0px;
   }
-  .footer-section .logo {
-    align-self: start;
+  .footer-div .logo {
+    margin: 0;
   }
   .footer-div {
-    align-items: start;
     max-width: 264px;
   }
 
@@ -177,9 +178,6 @@
     max-width: 453px;
     align-items: start;
   }
-  .footer-div .logo {
-    margin: 0;
-  }
   .form-email {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -192,6 +190,10 @@
   }
   .footer-social {
     margin-top: 0;
+  }
+  .footer-container {
+    flex-direction: row;
+    align-items: start;
   }
 }
 
